@@ -1,0 +1,16 @@
+*.xpr
+
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+
+*.log
+*.jou
+*.str
+*.zip
+
+*.bit
+*.bin
