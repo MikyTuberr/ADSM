@@ -21,7 +21,8 @@
 
 module sonar_processor_top (
     input wire clk,
-    input wire reset_n
+    input wire reset_n,
+    output wire detection_hit
 );
 
     // --- AXI4-Stream ---

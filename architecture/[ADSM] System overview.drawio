@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Strona-1" id="Wt2n0UQF1-kuhTx26S2b">
-    <mxGraphModel dx="768" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1712" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DP30jN7ru2wnK_hVUsmx-18" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.004;exitY=0.132;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.133;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240.4799999999998" y="101.12000000000012" as="sourcePoint" />
-            <mxPoint x="489.6400000000001" y="101.27999999999997" as="targetPoint" />
+            <mxPoint x="290.4799999999998" y="101.12000000000012" as="sourcePoint" />
+            <mxPoint x="539.6400000000001" y="101.27999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-21" connectable="0" parent="DP30jN7ru2wnK_hVUsmx-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Put initial TDATA, TLAST on the bus" vertex="1">
@@ -16,22 +16,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Top Module" vertex="1">
-          <mxGeometry height="950" width="790" x="20" y="10" as="geometry" />
+          <mxGeometry height="1150" width="790" x="20" y="10" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-35" parent="DP30jN7ru2wnK_hVUsmx-11" style="swimlane;whiteSpace=wrap;html=1;" value="spectral_analysis_fwd" vertex="1">
-          <mxGeometry height="200" width="200" x="470" y="50" as="geometry" />
+          <mxGeometry height="200" width="200" x="520" y="50" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-34" parent="DP30jN7ru2wnK_hVUsmx-35" style="rounded=1;whiteSpace=wrap;html=1;" value="fft_8192_analysis" vertex="1">
           <mxGeometry height="50" width="120" x="40" y="75" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-36" parent="DP30jN7ru2wnK_hVUsmx-11" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="axis_frontend_input" vertex="1">
-          <mxGeometry height="200" width="200" x="20" y="50" as="geometry" />
+          <mxGeometry height="200" width="200" x="70" y="50" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-37" parent="DP30jN7ru2wnK_hVUsmx-36" style="rounded=1;whiteSpace=wrap;html=1;" value="data_injector" vertex="1">
           <mxGeometry height="50" width="120" x="40" y="75" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-38" parent="DP30jN7ru2wnK_hVUsmx-11" style="swimlane;whiteSpace=wrap;html=1;" value="matched_filter_core" vertex="1">
-          <mxGeometry height="200" width="200" x="470" y="390" as="geometry" />
+          <mxGeometry height="200" width="200" x="520" y="490" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-39" parent="DP30jN7ru2wnK_hVUsmx-38" style="rounded=1;whiteSpace=wrap;html=1;" value="coeff_rom" vertex="1">
           <mxGeometry height="50" width="120" x="40" y="40" as="geometry" />
@@ -40,13 +40,13 @@
           <mxGeometry height="50" width="120" x="40" y="120" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-40" parent="DP30jN7ru2wnK_hVUsmx-11" style="swimlane;whiteSpace=wrap;html=1;" value="spectral_synthesis_inv" vertex="1">
-          <mxGeometry height="200" width="200" x="20" y="390" as="geometry" />
+          <mxGeometry height="200" width="200" x="70" y="490" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-41" parent="DP30jN7ru2wnK_hVUsmx-40" style="rounded=1;whiteSpace=wrap;html=1;" value="fft_8192_synthesis" vertex="1">
           <mxGeometry height="50" width="120" x="40" y="75" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-43" parent="DP30jN7ru2wnK_hVUsmx-11" style="swimlane;whiteSpace=wrap;html=1;" value="envelope_detector" vertex="1">
-          <mxGeometry height="200" width="200" x="20" y="720" as="geometry" />
+          <mxGeometry height="200" width="200" x="70" y="930" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-44" parent="DP30jN7ru2wnK_hVUsmx-43" style="rounded=1;whiteSpace=wrap;html=1;" value="discard" vertex="1">
           <mxGeometry height="50" width="120" x="40" y="40" as="geometry" />
@@ -55,15 +55,103 @@
           <mxGeometry height="50" width="120" x="40" y="125" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-45" parent="DP30jN7ru2wnK_hVUsmx-11" style="swimlane;whiteSpace=wrap;html=1;" value="cfar_detection_engine" vertex="1">
-          <mxGeometry height="200" width="200" x="460" y="720" as="geometry" />
+          <mxGeometry height="200" width="200" x="520" y="930" as="geometry" />
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-46" parent="DP30jN7ru2wnK_hVUsmx-45" style="rounded=1;whiteSpace=wrap;html=1;" value="cfar" vertex="1">
           <mxGeometry height="50" width="120" x="40" y="75" as="geometry" />
         </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-1" edge="1" parent="DP30jN7ru2wnK_hVUsmx-11" source="DP30jN7ru2wnK_hVUsmx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.748;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="DP30jN7ru2wnK_hVUsmx-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="250" as="sourcePoint" />
+            <mxPoint x="670" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-2" connectable="0" parent="9ByJ02eT_KA0yBllpViG-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" value="Put initial TDATA, TLAST, TUSER on the bus" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="7" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-12" edge="1" parent="DP30jN7ru2wnK_hVUsmx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.0000000000002" y="630" as="sourcePoint" />
+            <mxPoint x="519" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-13" connectable="0" parent="9ByJ02eT_KA0yBllpViG-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" value="Signal data received by TREADY" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="26" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-28" edge="1" parent="DP30jN7ru2wnK_hVUsmx-11" source="DP30jN7ru2wnK_hVUsmx-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.747;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="DP30jN7ru2wnK_hVUsmx-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="770" as="sourcePoint" />
+            <mxPoint x="270" y="1008" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-29" connectable="0" parent="9ByJ02eT_KA0yBllpViG-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" value="Put initial TDATA, TLAST on the bus" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="7" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-36" edge="1" parent="DP30jN7ru2wnK_hVUsmx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1030" as="sourcePoint" />
+            <mxPoint x="520" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-37" connectable="0" parent="9ByJ02eT_KA0yBllpViG-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" value="Signal data received by TREADY" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="26" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-38" edge="1" parent="DP30jN7ru2wnK_hVUsmx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="990" as="sourcePoint" />
+            <mxPoint x="270" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-39" connectable="0" parent="9ByJ02eT_KA0yBllpViG-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" value="Put initial TDATA, TLAST on the bus" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="-22" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-40" edge="1" parent="DP30jN7ru2wnK_hVUsmx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1070" as="sourcePoint" />
+            <mxPoint x="270" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-41" connectable="0" parent="9ByJ02eT_KA0yBllpViG-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" value="Signal that initial data is ready by TVALID" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="-22" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-42" edge="1" parent="DP30jN7ru2wnK_hVUsmx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1110" as="sourcePoint" />
+            <mxPoint x="270" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-43" connectable="0" parent="9ByJ02eT_KA0yBllpViG-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" value="Start transmitting TDATA, TLAST" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="-21" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-16" edge="1" parent="DP30jN7ru2wnK_hVUsmx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519" y="589.58" as="sourcePoint" />
+            <mxPoint x="269" y="589.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-17" connectable="0" parent="9ByJ02eT_KA0yBllpViG-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" value="Signal that initial data is ready by TVALID" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="-22" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-28" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.859;exitDx=0;exitDy=0;exitPerimeter=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="217.44000000000005" as="sourcePoint" />
-            <mxPoint x="490" y="217" as="targetPoint" />
+            <mxPoint x="290" y="217.44000000000005" as="sourcePoint" />
+            <mxPoint x="540" y="217" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-29" connectable="0" parent="DP30jN7ru2wnK_hVUsmx-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Start transmitting TDATA, TLAST" vertex="1">
@@ -73,8 +161,8 @@
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.009;exitY=0.355;exitDx=0;exitDy=0;exitPerimeter=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="241.07999999999993" y="136.80000000000007" as="sourcePoint" />
-            <mxPoint x="490" y="136" as="targetPoint" />
+            <mxPoint x="291.0799999999999" y="136.80000000000007" as="sourcePoint" />
+            <mxPoint x="540" y="136" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-31" connectable="0" parent="DP30jN7ru2wnK_hVUsmx-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Signal that initial data is ready by TVALID" vertex="1">
@@ -84,13 +172,101 @@
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-32" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.619;entryDx=0;entryDy=0;entryPerimeter=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="179" as="sourcePoint" />
-            <mxPoint x="240.4799999999998" y="179.03999999999996" as="targetPoint" />
+            <mxPoint x="540" y="179" as="sourcePoint" />
+            <mxPoint x="290.4799999999998" y="179.03999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DP30jN7ru2wnK_hVUsmx-33" connectable="0" parent="DP30jN7ru2wnK_hVUsmx-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Signal data received by TREADY" vertex="1">
           <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
             <mxPoint x="-20" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" target="DP30jN7ru2wnK_hVUsmx-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="260" as="sourcePoint" />
+            <mxPoint x="838.9200000000001" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-4" connectable="0" parent="9ByJ02eT_KA0yBllpViG-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" value="Signal that initial data is ready by TVALID" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="7" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.347;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="DP30jN7ru2wnK_hVUsmx-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="260" as="sourcePoint" />
+            <mxPoint x="610" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-6" connectable="0" parent="9ByJ02eT_KA0yBllpViG-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" value="Signal data received by TREADY" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="7" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="260" as="sourcePoint" />
+            <mxPoint x="570" y="499" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-8" connectable="0" parent="9ByJ02eT_KA0yBllpViG-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" value="Start transmitting TDATA, TLAST, TUSER" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="7" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="560" as="sourcePoint" />
+            <mxPoint x="290" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-11" connectable="0" parent="9ByJ02eT_KA0yBllpViG-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" value="Put initial TDATA, TLAST on the bus" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="-22" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-18" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="680" as="sourcePoint" />
+            <mxPoint x="290" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-19" connectable="0" parent="9ByJ02eT_KA0yBllpViG-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" value="Start transmitting TDATA, TLAST" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="-21" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="DP30jN7ru2wnK_hVUsmx-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="700" as="sourcePoint" />
+            <mxPoint x="200" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-31" connectable="0" parent="9ByJ02eT_KA0yBllpViG-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" value="Signal that initial data is ready by TVALID" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="7" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-32" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.35;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="DP30jN7ru2wnK_hVUsmx-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="700" as="sourcePoint" />
+            <mxPoint x="209" y="1019" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-33" connectable="0" parent="9ByJ02eT_KA0yBllpViG-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" value="Signal data received by TREADY" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="7" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-34" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="700" as="sourcePoint" />
+            <mxPoint x="120" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ByJ02eT_KA0yBllpViG-35" connectable="0" parent="9ByJ02eT_KA0yBllpViG-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" value="Start transmitting TDATA, TLAST" vertex="1">
+          <mxGeometry relative="1" x="-0.17" y="3" as="geometry">
+            <mxPoint x="7" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
