@@ -2,6 +2,7 @@
 * `ADSM.srcs/` – kod Verilog, wzorce `.coe` i konfiguracje IP (`.xci`)
 * `build_project.tcl` – skrypt generujący projekt Vivado
 * `matlab/` – skrypty matlabowe
+* `architecture/` – architektura systemu
 * `.gitignore` – automatycznie odcina śmieci (logi, cache, wyniki syntezy)
 
 ---

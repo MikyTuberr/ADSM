@@ -1,16 +1,21 @@
-*.xpr
-
+*.runs/
+*.sim/
 *.cache/
 *.hw/
 *.ip_user_files/
-*.runs/
-*.sim/
+*/.Xil/
 .Xil/
+*.gen/
 
-*.log
 *.jou
+*.log
 *.str
-*.zip
+*.pb
+*.wdf
 
+*.dcp
 *.bit
 *.bin
+
+.DS_Store
+Thumbs.db
