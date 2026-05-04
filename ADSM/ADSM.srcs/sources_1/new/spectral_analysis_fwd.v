@@ -35,9 +35,17 @@ module spectral_analysis_fwd (
     output wire        m_axis_tlast,
     output wire [12:0] m_axis_tuser
 );
+    wire [7:0] fft_config_tdata = 8'h01; 
+    wire       fft_config_tvalid = 1'b1;
+
     fft_8192_analysis u_fft (
         .aclk(clk),
         .aresetn(reset_n),
+        
+        // S_AXIS_CONFIG
+        .s_axis_config_tdata(fft_config_tdata),
+        .s_axis_config_tvalid(fft_config_tvalid),
+        .s_axis_config_tready(),
         
         // S_AXIS_DATA (Input)
         .s_axis_data_tdata(s_axis_tdata),
