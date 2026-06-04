@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 04.05.2026 09:35:36
+// Create Date: 03.06.2026 20:04:56
 // Design Name: 
-// Module Name: tb_frontend_analysis
+// Module Name: tb_sonar_processor_top
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,37 +20,37 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module tb_frontend_analysis();
+module tb_sonar_processor_top();
 
     reg clk;
     reg reset_n;
-
+    
     wire detection_hit;
 
-    sonar_processor_top u_dut (
+    sonar_processor_top uut (
         .clk(clk),
         .reset_n(reset_n),
         .detection_hit(detection_hit)
     );
 
-    always #5 clk = ~clk;
+    always begin
+        clk = 1'b0;
+        #5;
+        clk = 1'b1;
+        #5;
+    end
 
     initial begin
-        $display("--- ROZPOCZĘCIE SYMULACJI SONARU ---");
-        
-        clk = 0;
-        reset_n = 0;
+        reset_n = 1'b0;
         
         #100;
         
-        reset_n = 1;
-        $display("Czas: %0t ns | System wybudzony, injector zaczyna wysyłać dane...", $time);
+        reset_n = 1'b1;
         
-        #200000;
+        #2000000;
         
-        $display("Czas: %0t ns | Zakończenie testu.", $time);
+        $display("Symulacja zakończona. Sprawdź wykresy!");
         $finish;
     end
 
 endmodule
-
