@@ -31,10 +31,11 @@ module axis_frontend_input (
 
     data_injector u_injector (
         .clk(clk),
-        .reset_n(!reset_n),
+        .reset_n(reset_n),
         .m_axis_tdata(m_axis_tdata),
         .m_axis_tvalid(m_axis_tvalid),
-        .m_axis_tready(m_axis_tready)
+        .m_axis_tready(m_axis_tready),
+        .m_axis_tlast(m_axis_tlast)
     );
 
 endmodule

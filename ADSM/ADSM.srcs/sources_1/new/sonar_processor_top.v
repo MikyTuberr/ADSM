@@ -31,7 +31,7 @@ module sonar_processor_top (
     wire [15:0] axis_fwd_tdata;
     wire        axis_fwd_tvalid, axis_fwd_tready, axis_fwd_tlast;
 
-    // Analysis -> Matched Filter
+    // Frontend -> Matched Filter
     wire [31:0] axis_mf_tdata;
     wire [12:0] axis_mf_tuser; // xk_index
     wire        axis_mf_tvalid, axis_mf_tready, axis_mf_tlast;
@@ -47,7 +47,6 @@ module sonar_processor_top (
     // Envelope -> CFAR
     wire [15:0] axis_cfar_tdata;
     wire        axis_cfar_tvalid, axis_cfar_tready, axis_cfar_tlast;
-    wire        detection_hit;
 
     // --- MODULES ---
 
