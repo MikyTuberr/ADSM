@@ -1,4 +1,5 @@
 dfx_runtime.txt
+*.xpr
 *.runs/
 *.sim/
 *.cache/
