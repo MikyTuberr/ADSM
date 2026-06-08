@@ -1,43 +1,22 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 20.05.2026 23:46:16
-// Design Name: 
-// Module Name: coeff_rom
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
-
-`timescale 1ns / 1ps
-
-module coeff_rom #
+module coeff_rom_bmg #
 (
-    parameter FFT_SIZE   = 8192,
-    parameter COEFF_FILE = "matched_coeffs.mem"
+    parameter ADDR_WIDTH = 13
 )
 (
-    input  wire [12:0] addr,
-    output wire [31:0] data
+    input  wire                     clk,
+    input  wire [ADDR_WIDTH-1:0]    addr,
+    output wire [31:0]              data
 );
 
-    reg [31:0] rom [0:FFT_SIZE-1];
-
-    initial begin
-        $readmemh(COEFF_FILE, rom);
-    end
-
-    assign data = rom[addr];
+    // Nazwa modułu IP może być inna, jeśli inaczej nazwałeś Block Memory Generator.
+    // Jeśli Vivado wygeneruje np. "blk_mem_gen_0", to zostaw tak jak niżej.
+    blk_mem_gen_0 u_bmg (
+        .clka  (clk),
+        .ena   (1'b1),
+        .addra (addr),
+        .douta (data)
+    );
 
 endmodule
