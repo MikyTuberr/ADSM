@@ -35,7 +35,7 @@ module data_injector (
     integer i;
 
     initial begin
-        $readmemh("sonar_signals.mem", test_mem);
+        $readmemh("HFM_50ms.mem", test_mem);
     end
 
     always @(posedge clk) begin
